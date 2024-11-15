@@ -1,1 +1,70 @@
 /*  your css code here. If applicable */
+        body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            text-align: center;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration-line: none;
+            color: #000;
+            font-size: 18px;
+        }
+
+        .player_one,
+        .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 60%;
+            text-align: center;
+        }
+
+        video,
+        audio {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .audio-player-container {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 60%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        audio {
+            width: 100%;
+            max-width: 600px;
+            height: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
